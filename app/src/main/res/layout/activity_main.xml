@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/background"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/purple_sky"
+        android:contentDescription="@string/welcome_screen_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="221dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="112dp"
+        android:layout_marginLeft="112dp"
+        android:layout_marginTop="112dp"
+        android:text="@string/star_seeker"
+        android:textColor="#000000"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:fontFamily="casual"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="233dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="112dp"
+        android:layout_marginLeft="112dp"
+        android:layout_marginTop="192dp"
+        android:text="@string/by_jiwon_jun_melody_lan"
+        android:textColor="#FF000000"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:fontFamily="casual"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/skipButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="456dp"
+        android:layout_marginLeft="456dp"
+        android:layout_marginTop="216dp"
+        android:background="#00650D94"
+        android:contentDescription="@string/skip_button"
+        android:tint="#00751818"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/btn_star_big_off" />
+
+    <TextView
+        android:id="@+id/skipinstruction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="424dp"
+        android:layout_marginLeft="424dp"
+        android:layout_marginTop="248dp"
+        android:text="@string/press_star_to_skip"
+        android:textColor="#FF000000"
+        android:textStyle="bold"
+        app:fontFamily="casual"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/shootingstar"
+        android:layout_width="45dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="640dp"
+        android:layout_marginLeft="640dp"
+        android:src="@drawable/comet"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.137" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
